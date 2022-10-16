@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url(img/img1.jpg);
+    height: 1000px;
+    width: 100%;
+    background-size:100% auto;
+    padding-top:53px ;
+    position: relative;
+    
+    
+    
+
+    
+
+
+}
+.narrow-container{
+    height: 122px;
+    width:100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    
+  
+}
+.narrow-container h1{
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    color: #054C73;
+
+
+}
+nav a:link, a:visited{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: #333333;
+
+}
+  
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+nav a:link:active, a:visited:active {
+    text-decoration: none;
+    color: #333333;
+}
+.discover-box{
+    background: #DFE9F4;
+    height: 443px;
+    width: 643px;
+    float:right;
+    border-radius: 10px;
+    padding-left: 39px;
+    padding-top :37px;
+    margin-top: 155px;
+    margin-right: 90px;
+
+}
+.discover-box h3{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #333333;
+
+
+}
+.discover-box h1{
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #054C73;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+
+}
+.discover-box p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 30px;
+
+
+}
+.discover-box button{
+    height: 70px;
+    width: 229px;
+    left: 746px;
+    top: 609px;
+    border-radius: 50px;
+    padding: 25px 72px 25px 72px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    background-color: #054C73;
+    border: none;
+    color: #FFFFFF;
+
+}
+.delivery-container{
+    height: 150px;
+    width: 100%;
+    position:relative;
+    background: #F2F5FF;
+    top: -160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.delivery-container img{
+    width: 60px;
+    height: 55px;
+    margin-right: 27.08px;
+}
+.delivery-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.delivery-box h3{
+    height: 29px;
+    width: 168px;
+    color: #333333;
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 24px;
+
+
+
+
+}
+.delivery-box p{
+    height: 20px;
+    width: 227px;
+    left: 1113.271484375px;
+    top: 952px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #333333;
+
+
+  
+}
