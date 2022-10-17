@@ -126,7 +126,7 @@ nav a:link:active, a:visited:active {
 
 }
 .delivery-container{
-    height: 150px;
+    height: 160px;
     width: 100%;
     position:relative;
     background: #F2F5FF;
@@ -160,11 +160,6 @@ nav a:link:active, a:visited:active {
 
 }
 .delivery-box p{
-    height: 20px;
-    width: 227px;
-    left: 1113.271484375px;
-    top: 952px;
-    border-radius: nullpx;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -175,4 +170,225 @@ nav a:link:active, a:visited:active {
 
 
   
+}
+.cataloge-box{
+    text-align: center;
+}
+.cataloge-box h1{
+    
+    
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #333333;
+
+    
+
+}
+.cataloge-box p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+
+
+
+}
+.cataloge-container{
+    
+    background-color:#FFFFFF;
+
+}
+
+.cataloge-img1 img{
+    object-fit: cover;
+    height: 275px;
+    width: 224px;
+    margin-right: 27px;
+    margin-top: 60px;
+    border-top-left-radius: 25%;
+}
+.cataloge-img2 img{
+    object-fit: cover;
+    height: 275px;
+    width: 224px;
+    position: relative;
+    top: -25%;
+    margin-right: 27px;
+    margin-top: 30px;
+    
+    
+}
+.cataloge-img3 img{
+    object-fit: cover;
+    height: 275px;
+    width: 224px;
+    margin-right: 27px;
+    margin-top: 60px;
+    border-bottom-right-radius: 25%;
+    background-color:#E5E5E5;
+}
+.cataloge-imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container-head{
+    text-align: center;
+    margin-top: 60px;
+}
+.container-head h3{
+    height: 29px;
+    width: 168px;
+    color: #333333;
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 24px;
+
+
+}
+.container-head p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+
+}
+.container-images{
+    
+    display: grid;
+    grid-template-columns: 128px 1fr 1fr 1fr 128px;
+    grid-template-rows:5fr 1fr 1fr;
+    height: 480px;
+    gap: 20px;
+    margin-top: 20px;
+}    
+.img-box1{
+    background-image: url(img/img6.png);
+    border-radius: 8%;
+    
+}
+.img-box2{
+    background-image: url(img/img7.png);
+    border-radius: 8%;
+}
+.img-box3{
+    background-image: url(img/img8.png);
+    border-radius: 5%;
+}
+.container-images h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #333333;
+
+}
+.works-head{
+    text-align: center;
+    margin-top: 60px;
+}
+.works-head h3{
+    height: 29px;
+    width: 168px;
+    color: #333333;
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 24px;
+
+}
+.works-head p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.works-images{
+    
+    display: grid;
+    grid-template-columns: 128px 1fr 1fr 1fr 128px;
+    grid-template-rows:5fr 1fr 1fr;
+    height: 620px;
+    gap: 20px;
+    margin-top: 20px;
+    
+}  
+.img-box4{
+    background-image: url(img/img10.jpg);
+    border-radius: 8%;
+    height: 409px;
+    position: relative;
+    
+   
+
+
+}
+.img-box5{
+    background-image: url(img/img11.png);
+    border-radius: 8%;
+    height: 409px;
+    position: relative;
+}
+.img-box6{
+    background-image: url(img/img5.jpg);
+    border-radius: 8%;
+    height: 409px;
+    position: relative;
+}
+.works-images h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    color: #333333;
+
+
+}
+.works-images p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #666666;
+
+
+}
+.circle-box{
+
+    background-color:  #FCFCFC;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top:-60px;
+    left:110px;
+    
+
+
+}
+.circle-box-child{
+    background-color: #111111;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.circle-box-child h1{
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+
 }
