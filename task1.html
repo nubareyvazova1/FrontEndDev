@@ -6,42 +6,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .position{
+        display: flex;
+        justify-content: center;
+    }
+    .position h2{
+        font-size: 30px;
+        font-weight: 800;
+        
+    }
+    .position h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .info-container{
+        display: flex;
+        justify-content: flex-start;
+        margin: 40px;
+    }
+    .info-box{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .info-box b{
+        font-size: 20px;
+        font-weight: 600;
+        margin-right:10px ;
+
+    }
+    .info-box p{
+        font-size: 17px;
+        font-weight: 500;
+        color:#333333 ;
+
+    }
+    .date-info{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 30px;
+       
+        margin-top: 10px;
+    }
+    .date-info h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 90px;
+        
+    }
+    .date-info form{
+        margin-left: 90px;
+        
+    }
+    .language-info{
+        margin-left: 30px;
+        margin-top: 20px; 
+    }
+    .language-info label{
+        margin-right: 30px;
+        font-size: 17px;
+        font-weight: 500;
+        color:#333333 ;
+    }
+    .language-info form{
+        margin-top: 10px;
+    }
+    .skills-info{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .skills-info dd{
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 500;
+        color:#333333 ;
+    }
+    .skills-info button ,input{
+        margin-top: 5px;
+    }
+    .option-info{
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    .option-info label{
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 90px;
+    }
+    .value-info{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .value-info label{
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 90px;
+        margin-right: 90px;
+
+    }
+    .more-info{
+        
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .more-skills{
+        display: flex;
+    }
+    .more-info h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 90px;
+        
+    }
+    .more-info label{
+        margin-top: 15px;
+        margin-right: 40px;
+        font-size: 17px;
+        font-weight: 500;
+        color:#333333 ;
+    }
+    .first-skills{
+        margin-right:60px ;
+    }
+    .education-info{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .education-info table ,td, tr{
+        border: 1px solid;
+        text-align: center;
+    }
+    table {
+        height: 200px;
+        width: 700px;
+        border-collapse: collapse;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .education-info button{
+        padding: 15px 25px;
+        text-align: center;
+    }
+
+
+</style>
 <body>
     <section id=" main_container">
-        <div>
+        <div class="position">
             <h2>Position:</h2>
             <h1>Junior Frontend Developer</h1>
         </div>
-        <div>
+        <div class="info-container">
             <div>
-                <img src="" alt="">
+                <img src="FrontProject/img/download.jpg" alt="">
             </div>
             <div>
-                <b>Name:</b>
-                <p>Nubar</p>
-            </div> 
-            <div>
-                <b>Git:</b>
-                <p>https://github.com/nubareyvazova1</p>
-            </div>
-            <div>
-                <b>Course number:</b>
-                <p>4</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>Birth date:</h3>
-                <div>
-                    <form action="/action_page.php">
-                        <label for="birthday">Birthday:</label>
-                        <input type="date" id="birthday" name="birthday">
-                    </form>
+                <div  class="info-box">
+                    <b>Name:</b>
+                    <p>Nubar</p>
+                </div> 
+                <div  class="info-box">
+                    <b>Git:</b>
+                    <p>https://github.com/nubareyvazova1</p>
                 </div>
-
+                <div  class="info-box">
+                    <b>Course number:</b>
+                    <p>4</p>
+                </div>
             </div>
         </div>
-        <div>
+        
+        <div class="date-info">
+            <h3>Birth date:</h3>
+            <div>
+                <form action="/action_page.php">
+                    
+                    <input type="date" id="birthday" name="birthday">
+                </form>
+            </div>
+
+        </div>
+        
+        <div class="language-info">
             <h3>English level:</h3>
             <form>
                   <input type="radio" id="bad" name="fav_language">
@@ -56,8 +210,8 @@
                 
             
         </div>
-        <div>
-            <h3>Key skills</h3>
+        <div class="skills-info">
+            <h3>Key skills:</h3>
             <div>
                 <dd>-Html</dd>
                 <dd>-CSS/Less</dd>
@@ -66,6 +220,74 @@
                 <button type="submit" class="btn btn-primary">Add to the list</button>
             </div>
         </div>
+        <div class="option-info">
+            <form action="">
+                <label for="">Lang sector:</label>
+                <select name="" id="">
+                  <option value="">Lorem ipsum .</option>
+                  <option value="">Lorem ipsum .</option>
+                  <option value="">Lorem ipsum .</option>
+                  <option value="">Lorem ipsum .</option>
+                </select>
+
+        </div>
+        <div class="value-info">
+            <form action="">
+                <label for="">Salary:</label>
+                <input type="text" placeholder="enter the value">
+            </form>
+        </div>
+        <div class="more-info">
+            <h3>Other skills:</h3>
+            <div class="more-skills">
+                <div class="first-skills">
+                    <form action="">
+                        <input type="checkbox" id="" name="">
+                        <label>skill 1</label>
+                    </form>
+                </div>
+                <form>
+                    <input type="checkbox" id="" name="" >
+                    <label>skill 2</label>
+                    <input type="checkbox" id="" name="" >
+                    <label>skill 3</label>
+                    <input type="checkbox" id="" name="" >
+                    <label>skill 4</label>
+              </form> 
+            </div>
+        </div>
+        <div class="education-info">
+            <h3>Education:</h3>
+            <table>
+                <tr>
+                    <td>#</td>
+                    <td>Data</td>
+                    <td>Place</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Lorem ipsum .</td>
+                    <td>Lorem ipsum .</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lorem ipsum .</td>
+                    <td>Lorem ipsum .</td>
+
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>Lorem ipsum .</td>
+                    <td>Lorem ipsum .</td>
+
+                </tr>
+            </table>
+            <button>Save Profile</button>
+        </div>
+
+        
 
     </section>
 </body>

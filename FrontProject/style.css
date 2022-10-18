@@ -270,12 +270,12 @@ nav a:link:active, a:visited:active {
 }    
 .img-box1{
     background-image: url(img/img6.png);
-    border-radius: 8%;
+    border-radius: 5%;
     
 }
 .img-box2{
     background-image: url(img/img7.png);
-    border-radius: 8%;
+    border-radius: 5%;
 }
 .img-box3{
     background-image: url(img/img8.png);
