@@ -3,21 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-header{
-    background-image: url(img/img1.jpg);
-    height: 1000px;
-    width: 100%;
-    background-size:100% auto;
-    padding-top:53px ;
-    position: relative;
-    
-    
-    
-
-    
-
-
-}
 .narrow-container{
     height: 122px;
     width:100%;
@@ -25,7 +10,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 130px;
+    
     
   
 }
@@ -40,7 +25,7 @@ header{
 
 }
 
-nav ul li a:link, a:visited{
+nav a:link, a:visited{
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
@@ -62,6 +47,15 @@ nav a:link:active, a:visited:active {
     text-decoration: none;
     color: #333333;
 }
+/* 1 */
+.main-box{
+    background-image: url(img/img1.jpg);
+    height: 832.93px;
+    width: 100%;
+    background-size:100% auto;
+    position: relative;
+}
+
 .discover-box{
     background: #DFE9F4;
     height: 443px;
@@ -70,8 +64,8 @@ nav a:link:active, a:visited:active {
     border-radius: 10px;
     padding-left: 39px;
     padding-top :37px;
-    margin-top: 155px;
-    margin-right: 90px;
+    position: relative;
+    top: 155px;
 
 }
 .discover-box h3{
@@ -128,12 +122,14 @@ nav a:link:active, a:visited:active {
     color: #FFFFFF;
 
 }
+/* 1 */
+/* 2 */
 .delivery-container{
     height: 160px;
     width: 100%;
     position:relative;
+    top:-83.93px;
     background: #F2F5FF;
-    top: -160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -174,12 +170,12 @@ nav a:link:active, a:visited:active {
 
   
 }
+/* 2 */
+/* 3 */
 .cataloge-box{
     text-align: center;
 }
 .cataloge-box h1{
-    
-    
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
@@ -202,43 +198,50 @@ nav a:link:active, a:visited:active {
 .cataloge-container{
     
     background-color:#FFFFFF;
+    height: 684px;
 
 }
-
-.cataloge-img1 img{
+.cataloge-imges img{
     object-fit: cover;
-    height: 275px;
-    width: 224px;
-    margin-right: 27px;
+    width: 100%;
+    height: 100%;
+    
+    
+} 
+.cataloge-img1 {
     margin-top: 60px;
     border-top-left-radius: 25%;
+    width: 25%;
+    height: 430px;
+    
+
+    
 }
-.cataloge-img2 img{
-    object-fit: cover;
-    height: 275px;
-    width: 224px;
-    position: relative;
-    top: -25%;
-    margin-right: 27px;
+.cataloge-img2 {
     margin-top: 30px;
+    margin-left: 39px;
+    margin-right: 39px;
+    width: 25%;
+    height: 430px;
     
     
 }
-.cataloge-img3 img{
-    object-fit: cover;
-    height: 275px;
-    width: 224px;
-    margin-right: 27px;
+.cataloge-img3 {
+
     margin-top: 60px;
+    width: 25%;
+    height: 430px;
     border-bottom-right-radius: 25%;
     background-color:#E5E5E5;
 }
 .cataloge-imges{
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    width: 80%;
+    margin: auto;
 }
+/* 3 */
+/* 4 */
 .container-head{
     text-align: center;
     margin-top: 60px;
@@ -294,6 +297,8 @@ nav a:link:active, a:visited:active {
     color: #333333;
 
 }
+/* 4 */
+/* 5 */
 .works-head{
     text-align: center;
     margin-top: 60px;
