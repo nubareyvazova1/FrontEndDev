@@ -207,15 +207,16 @@ nav a:link:active, a:visited:active {
     height: 100%;
     
     
+    
 } 
-.cataloge-img1 {
+.cataloge-img1{
     margin-top: 60px;
-    border-top-left-radius: 25%;
     width: 25%;
     height: 430px;
     
-
-    
+}
+.cataloge-img1 img{
+    border-top-left-radius: 25%;
 }
 .cataloge-img2 {
     margin-top: 30px;
@@ -223,6 +224,7 @@ nav a:link:active, a:visited:active {
     margin-right: 39px;
     width: 25%;
     height: 430px;
+    
     
     
 }
@@ -241,14 +243,104 @@ nav a:link:active, a:visited:active {
     margin: auto;
 }
 /* 3 */
+.main-info-container{
+    height: 874px;
+    background: #F2F5FF;
+}
+.main-bokes-info{
+    height: 874px;
+}
+.main-info-bokes{
+    
+    margin: auto;
+    width: 90%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr 1fr;
+
+}
+.main-info-bokes-img{
+    display: flex;
+    justify-content: center;
+    
+    z-index: 1;
+    
+}
+.main-info-bokes img{
+    height: 754px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-top:60px ;
+    object-fit: cover;
+    width: 80%;
+    box-sizing: border-box;
+    position: relative;
+  
+}
+.main-info-container span{
+    height: 373px;
+    width: 373px;
+    background-color: #09513B;
+    z-index: -1;
+    left: 173px;
+    top: -600px;
+    
+    border-radius: 50%;
+    position: relative;
+}
+.main-info-bokes div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.main-info-container h3{
+    margin-bottom: 21px;
+    color: #333333;
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 39px;
+    font-weight: 700;
+
+
+    
+} 
+.main-info-container p{
+    margin-bottom: 31px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+    
+}
+.main-info-container button{
+    height: 70px;
+    width: 229px;
+    left: 746px;
+    top: 609px;
+    border-radius: 50px;
+    padding: 25px 72px 25px 72px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    background-color: #054C73;
+    border: none;
+    color: #FFFFFF;
+
+}
 /* 4 */
 .container-head{
     text-align: center;
     margin-top: 60px;
 }
 .container-head h3{
+    margin-bottom: 20px;
     height: 29px;
-    width: 168px;
     color: #333333;
     font-family: Montserrat;
     font-style: SemiBold;
@@ -322,35 +414,21 @@ nav a:link:active, a:visited:active {
     color: #333333;
 }
 .works-images{
-    
+    width: 90%;
+    margin:20px auto auto auto ;
     display: grid;
-    grid-template-columns: 128px 1fr 1fr 1fr 128px;
-    grid-template-rows:5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 400px 1fr 1fr;
     height: 620px;
     gap: 20px;
-    margin-top: 20px;
+    
     
 }  
-.img-box4{
-    background-image: url(img/img10.jpg);
+.works-images img{
     border-radius: 8%;
-    height: 409px;
-    position: relative;
-    
-   
-
-
-}
-.img-box5{
-    background-image: url(img/img11.png);
-    border-radius: 8%;
-    height: 409px;
-    position: relative;
-}
-.img-box6{
-    background-image: url(img/img5.jpg);
-    border-radius: 8%;
-    height: 409px;
+    box-sizing: border-box;
+    width:100% ;
+    height: 100%;
     position: relative;
 }
 .works-images h4{
@@ -381,7 +459,8 @@ nav a:link:active, a:visited:active {
     border-radius: 50%;
     position: relative;
     top:-60px;
-    left:110px;
+    left:120px;
+    
     
 
 
