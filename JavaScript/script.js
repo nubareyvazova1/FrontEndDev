@@ -63,13 +63,14 @@
 //     console.log("The quadratic equation has no solution")
 // }
 
-const x =Number(prompt('x: '));
-const y =Number(prompt('y: '));
-const r =Number(prompt('r: '));
-let d=Math.sqrt(x**2+y**2)
-if (d<r){
-    console.log("(x,y) is inside a circle")
-}
-else{
-    console.log("(x,y) is not inside the circle")
-}
+// 7
+// const x =Number(prompt('x: '));
+// const y =Number(prompt('y: '));
+// const r =Number(prompt('r: '));
+// let d=Math.sqrt(x**2+y**2)
+// if (d<r){
+//     console.log("(x,y) is inside a circle")
+// }
+// else{
+//     console.log("(x,y) is not inside the circle")
+// }

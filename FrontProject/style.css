@@ -5,7 +5,7 @@
 }
 .narrow-container{
     height: 122px;
-    width:100%;
+    width: 1200px;;
     background: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -15,7 +15,6 @@
   
 }
 .narrow-container h1{
-    font-family: Montserrat;
     font-size: 34px;
     font-weight: 700;
     line-height: 41px;
@@ -26,7 +25,7 @@
 }
 
 nav a:link, a:visited{
-    font-family: Montserrat;
+    
     font-size: 14px;
     font-weight: 600;
     line-height: 17px;
@@ -36,7 +35,6 @@ nav a:link, a:visited{
     color: #333333;
 
 }
-  
 
 header nav ul  {
     list-style-type: none;
@@ -48,28 +46,34 @@ nav a:link:active, a:visited:active {
     color: #333333;
 }
 /* 1 */
-.main-box{
-    background-image: url(img/img1.jpg);
+
+.main-box img{
+    width: 1440px;
     height: 832.93px;
-    width: 100%;
-    background-size:100% auto;
     position: relative;
+    background-size:100% auto;
+}
+.main-discover-box{
+    width: 1200px;
+    height: 832.93px; 
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 280px;
+    right: 90px;
+    z-index: 1;
 }
 
 .discover-box{
     background: #DFE9F4;
     height: 443px;
     width: 643px;
-    float:right;
     border-radius: 10px;
-    padding-left: 39px;
+    padding-left:39px;
     padding-top :37px;
-    position: relative;
-    top: 155px;
 
 }
 .discover-box h3{
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -80,7 +84,6 @@ nav a:link:active, a:visited:active {
 
 }
 .discover-box h1{
-    font-family: Montserrat;
     font-size: 52px;
     font-weight: 700;
     line-height: 65px;
@@ -93,7 +96,6 @@ nav a:link:active, a:visited:active {
 
 }
 .discover-box p{
-    font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
     line-height: 39px;
@@ -107,16 +109,12 @@ nav a:link:active, a:visited:active {
 .discover-box button{
     height: 70px;
     width: 229px;
-    left: 746px;
-    top: 609px;
     border-radius: 50px;
-    padding: 25px 72px 25px 72px;
-    font-family: Montserrat;
+    padding: 25px 72px 20px 72px;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
     background-color: #054C73;
     border: none;
     color: #FFFFFF;
@@ -124,21 +122,27 @@ nav a:link:active, a:visited:active {
 }
 /* 1 */
 /* 2 */
-.delivery-container{
+.main-delivery-box{
     height: 160px;
-    width: 100%;
-    position:relative;
-    top:-83.93px;
-    background: #F2F5FF;
+    width: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    margin: 0px auto;
+}
+.delivery-container{
+    z-index: 1;
+    position:absolute;
+    top: 871px;
+    width: 1440px;
+    background: #F2F5FF;
+    margin-bottom: 60px;
+    
 }
 .delivery-container img{
     width: 60px;
     height: 55px;
-    margin-right: 27.08px;
+    margin-right: 10%;
 }
 .delivery-box{
     display: flex;
@@ -150,7 +154,6 @@ nav a:link:active, a:visited:active {
     height: 29px;
     width: 168px;
     color: #333333;
-    font-family: Montserrat;
     font-style: SemiBold;
     font-size: 24px;
 
@@ -159,7 +162,6 @@ nav a:link:active, a:visited:active {
 
 }
 .delivery-box p{
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -176,7 +178,6 @@ nav a:link:active, a:visited:active {
     text-align: center;
 }
 .cataloge-box h1{
-    font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
     line-height: 39px;
@@ -186,7 +187,6 @@ nav a:link:active, a:visited:active {
 
 }
 .cataloge-box p{
-    font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -196,19 +196,25 @@ nav a:link:active, a:visited:active {
 
 }
 .cataloge-container{
-    
+    margin-top: 135px ;
     background-color:#FFFFFF;
     height: 684px;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    flex-direction: column;
+    
 
 }
 .cataloge-imges img{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    
-    
-    
+    width:100% ;
+    height: 100%; 
 } 
+.cataloge-imges {
+    width: 1135.79px;
+
+}
 .cataloge-img1{
     margin-top: 60px;
     width: 25%;
@@ -245,26 +251,24 @@ nav a:link:active, a:visited:active {
 /* 3 */
 .main-info-container{
     height: 874px;
+    width: 1440px;
     background: #F2F5FF;
+
 }
 .main-bokes-info{
     height: 874px;
 }
 .main-info-bokes{
-    
     margin: auto;
-    width: 90%;
+    width:1200px;
     display: grid;
     gap: 20px;
     grid-template-columns:1fr 1fr;
 
 }
+
 .main-info-bokes-img{
-    display: flex;
-    justify-content: center;
-    
     z-index: 1;
-    
 }
 .main-info-bokes img{
     height: 754px;
@@ -272,7 +276,7 @@ nav a:link:active, a:visited:active {
     border-bottom-right-radius: 25%;
     margin-top:60px ;
     object-fit: cover;
-    width: 80%;
+    width: 500px;
     box-sizing: border-box;
     position: relative;
   
@@ -282,7 +286,7 @@ nav a:link:active, a:visited:active {
     width: 373px;
     background-color: #09513B;
     z-index: -1;
-    left: 173px;
+    left: 200px;
     top: -600px;
     
     border-radius: 50%;
@@ -297,7 +301,6 @@ nav a:link:active, a:visited:active {
 .main-info-container h3{
     margin-bottom: 21px;
     color: #333333;
-    font-family: Montserrat;
     font-style: SemiBold;
     font-size: 39px;
     font-weight: 700;
@@ -307,7 +310,6 @@ nav a:link:active, a:visited:active {
 } 
 .main-info-container p{
     margin-bottom: 31px;
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -318,15 +320,11 @@ nav a:link:active, a:visited:active {
 .main-info-container button{
     height: 70px;
     width: 229px;
-    left: 746px;
-    top: 609px;
     border-radius: 50px;
-    padding: 25px 72px 25px 72px;
-    font-family: Montserrat;
+    padding: 25px 70px;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0px;
     text-align: left;
     background-color: #054C73;
     border: none;
@@ -334,6 +332,7 @@ nav a:link:active, a:visited:active {
 
 }
 /* 4 */
+
 .container-head{
     text-align: center;
     margin-top: 60px;
@@ -342,7 +341,6 @@ nav a:link:active, a:visited:active {
     margin-bottom: 20px;
     height: 29px;
     color: #333333;
-    font-family: Montserrat;
     font-style: SemiBold;
     font-size: 39px;
     font-weight: 700;
@@ -352,7 +350,6 @@ nav a:link:active, a:visited:active {
 
 }
 .container-head p{
-    font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -362,7 +359,7 @@ nav a:link:active, a:visited:active {
 
 }
 .main-images-box{
-    width: 90%;
+    width: 1200px;;
     margin: 50px auto auto auto;
     height: 649px;
     display: grid;
@@ -381,7 +378,6 @@ nav a:link:active, a:visited:active {
 
 .main-images-box h4{
     padding-top: 30px;
-    font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
@@ -400,13 +396,11 @@ nav a:link:active, a:visited:active {
     height: 29px;
     width: 168px;
     color: #333333;
-    font-family: Montserrat;
     font-style: SemiBold;
     font-size: 24px;
 
 }
 .works-head p{
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -414,7 +408,7 @@ nav a:link:active, a:visited:active {
     color: #333333;
 }
 .works-images{
-    width: 90%;
+    width: 1200px;
     margin:20px auto auto auto ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -432,7 +426,7 @@ nav a:link:active, a:visited:active {
     position: relative;
 }
 .works-images h4{
-    font-family: Montserrat;
+   
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -442,7 +436,7 @@ nav a:link:active, a:visited:active {
 
 }
 .works-images p{
-    font-family: Montserrat;
+   
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -492,18 +486,19 @@ footer{
     height: 363px;
     background-color: #F2F5FF;
     justify-content: center;
+    width: 1440px;
 
 
 }
 .contact-container h1{
-    font-family: Montserrat;
+   
     font-size: 32px;
     font-weight: 700;
     line-height: 39px;
     
 }
 .contact-container p{
-    font-family: Montserrat;
+   
     font-size: 20px;
     font-weight: 400;
     line-height: 39px;
@@ -522,7 +517,7 @@ footer{
     border: 2px solid #054C73;
     background-color: #FFFFFF;
     padding: 25px;
-    font-family: Montserrat;
+   
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -537,7 +532,7 @@ footer{
     color: #FFFFFF;
     border-radius: 0px;
     border: 2px solid #054C73;
-    font-family: Montserrat;
+   
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -551,6 +546,8 @@ footer{
     height: 386px;
     border-radius: 0px;
     display: flex;
+    width: 1440px;
+
    
     
    
@@ -561,7 +558,7 @@ footer{
 
 }
 .main-footer-container h3{
-    font-family: Montserrat;
+    
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -571,14 +568,14 @@ footer{
 
 }
 .main-footer-container p{
-    font-family: Montserrat;
+    
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
     color:#FFFFFF;
     margin-top: 34px;
     margin-bottom: 34px;
-
+    
 
 }
 .footer-container{
@@ -604,7 +601,7 @@ footer{
     width: 30%;
 }
 .footer-box{
-    width: 90%;
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -613,3 +610,62 @@ footer{
 .footer-container h3{
     margin-bottom: 19px;
 }
+
+.burger-menu{
+
+    width: 30px;
+    height: 25px;
+    display: none;
+    justify-content:space-between;
+    flex-direction: column;
+    
+}
+.burger-menu .burger{
+    height: 3px;
+    width: 1440px;
+    background-color: grey;
+    border-radius: 10px;
+     
+}
+
+@media(max-width:900px){
+    .burger-menu{
+        display: flex;
+    }
+    .narrow-container ul{
+        display: none;
+    }
+
+}
+@media(mix-width:901px){
+    .main-info-bokes img{
+        height: 754px;
+        border-top-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        margin-top:60px ;
+        object-fit: cover;
+        width: 80%;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+    }
+
+}
+@media(max-width:900px){
+    .main-box{
+        height: 600.93px;
+        width: 100%;
+        background-size: 100% auto;
+        position: relative;
+    }
+    .main-info-bokes-img{
+        display: none;
+    }
+    .main-info-bokes-img img, span{
+        display: none;
+
+    }
+
+
+}
+
